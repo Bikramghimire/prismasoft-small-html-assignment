@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+.header {
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  height: 550px;
+  background-color: rgb(225, 214, 226);
+  margin: 0 auto;
+}
+.container .image-section {
+  background-image: url("city.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 35%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.container .text-section .list {
+  margin-left: 40px;
+}
+.container .text-section .list ul {
+  display: flex;
+}
+.pink-color {
+  color: rgb(231, 27, 95);
+}
+
+.container .text-section ul li {
+  margin-right: 10px;
+  list-style: none;
+  margin-top: 10px;
+}
+.container .text-section ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(139, 136, 136);
+  padding: 10px;
+  margin-top: 10px;
+}
+.container .text-section ul li a:hover {
+  background-color: rgb(138, 6, 109);
+}
+.container .text-section .text-header {
+  margin: 20px 20px;
+}
+.container .text-section .text-paragraph {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .text-section .text-paragraph1 {
+  max-width: 400px;
+  margin-left: 20px;
+}
+.container .text-section .text-paragraph2 {
+  height: 150px;
+  width: 300px;
+  background-color: rgb(139, 136, 136);
+  max-width: 200px;
+  margin-right: 40px;
+  padding: 10px 10px;
+}
+.footer-text {
+  margin: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(139, 136, 136);
+  padding: 5px 0px 35px;
+}
+.footer-text > div {
+  margin: 0px 10px;
+}
